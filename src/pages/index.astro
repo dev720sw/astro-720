@@ -6,22 +6,22 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 // Image assets
 const images = {
   logo: '/images/720-logo-white.svg',
-  heroImage: '/images/hero-image.png',
+  heroImage: '/images/hero-image.webp',
   nav: '/images/nav-icon.svg',
   
   // Expertise images
-  publicAffairs: '/images/public-affairs.png',
-  healthcare: '/images/healthcare.png',
-  grassroots: '/images/grassroots.png',
-  pacStrategy: '/images/pac-strategy.png',
-  membership: '/images/membership.png',
-  mediaRelations: '/images/media-relations.png',
-  creative: '/images/creative.png',
+  publicAffairs: '/images/public-affairs.webp',
+  healthcare: '/images/healthcare.webp',
+  grassroots: '/images/grassroots.webp',
+  pacStrategy: '/images/pac-strategy.webp',
+  membership: '/images/membership.webp',
+  mediaRelations: '/images/media-relations.webp',
+  creative: '/images/creative.webp',
   
   // Case study images
-  caseStudy1: '/images/case-study-1.png',
-  caseStudy2: '/images/case-study-2.png',
-  caseStudy3: '/images/case-study-3.png',
+  caseStudy1: '/images/case-study-1.webp',
+  caseStudy2: '/images/case-study-2.webp',
+  caseStudy3: '/images/case-study-3.webp',
 };
 ---
 
@@ -51,7 +51,7 @@ const images = {
         position: relative;
         height: 915px;
         background: linear-gradient(to bottom, rgba(7,7,7,0) 34%, rgba(7,7,7,0.75) 66%, #070707 95%),
-                    url('/images/hero-image.png') center/cover;
+                    url('/images/hero-image.webp') center/cover;
         color: white;
       }
 
@@ -469,49 +469,49 @@ const images = {
       
       <div class="expertise-grid">
         <div class="expertise-card">
-          <img src={images.publicAffairs} alt="Public Affairs" />
+          <img src={images.publicAffairs} alt="Public Affairs" loading="lazy" />
           <div class="expertise-overlay">
             <h3 class="expertise-title">Public Affairs<br />& Government<br />Communications</h3>
           </div>
         </div>
         
         <div class="expertise-card">
-          <img src={images.healthcare} alt="Healthcare Communications" />
+          <img src={images.healthcare} alt="Healthcare Communications" loading="lazy" />
           <div class="expertise-overlay">
             <h3 class="expertise-title">Healthcare Communications</h3>
           </div>
         </div>
         
         <div class="expertise-card">
-          <img src={images.grassroots} alt="Grassroots Advocacy" />
+          <img src={images.grassroots} alt="Grassroots Advocacy" loading="lazy" />
           <div class="expertise-overlay">
             <h3 class="expertise-title">Grassroots<br />Advocacy</h3>
           </div>
         </div>
         
         <div class="expertise-card">
-          <img src={images.pacStrategy} alt="PAC Strategy" />
+          <img src={images.pacStrategy} alt="PAC Strategy" loading="lazy" />
           <div class="expertise-overlay">
             <h3 class="expertise-title">PAC Strategy<br />& Compliance</h3>
           </div>
         </div>
         
         <div class="expertise-card">
-          <img src={images.membership} alt="Membership Engagement" />
+          <img src={images.membership} alt="Membership Engagement" loading="lazy" />
           <div class="expertise-overlay">
             <h3 class="expertise-title">Membership<br />Engagement</h3>
           </div>
         </div>
         
         <div class="expertise-card">
-          <img src={images.mediaRelations} alt="Media Relations" />
+          <img src={images.mediaRelations} alt="Media Relations" loading="lazy" />
           <div class="expertise-overlay">
             <h3 class="expertise-title">Media<br />Relations</h3>
           </div>
         </div>
         
         <div class="expertise-card">
-          <img src={images.creative} alt="Creative" />
+          <img src={images.creative} alt="Creative" loading="lazy" />
           <div class="expertise-overlay">
             <h3 class="expertise-title">Creative</h3>
           </div>
@@ -537,7 +537,7 @@ const images = {
       
       <div class="case-studies-grid">
         <div class="case-study-card">
-          <img src={images.caseStudy1} alt="Case Study 1" />
+          <img src={images.caseStudy1} alt="Case Study 1" loading="lazy" />
           <div class="case-study-overlay">
             <h3 class="case-study-title">Case Study<br />Project 1</h3>
             <div class="case-study-arrow">→</div>
@@ -545,7 +545,7 @@ const images = {
         </div>
         
         <div class="case-study-card">
-          <img src={images.caseStudy2} alt="Case Study 2" />
+          <img src={images.caseStudy2} alt="Case Study 2" loading="lazy" />
           <div class="case-study-overlay">
             <h3 class="case-study-title">Case Study<br />Project 2</h3>
             <div class="case-study-arrow">→</div>
@@ -553,7 +553,7 @@ const images = {
         </div>
         
         <div class="case-study-card">
-          <img src={images.caseStudy3} alt="Case Study 3" />
+          <img src={images.caseStudy3} alt="Case Study 3" loading="lazy" />
           <div class="case-study-overlay">
             <h3 class="case-study-title">Case Study<br />Project 3</h3>
             <div class="case-study-arrow">→</div>
