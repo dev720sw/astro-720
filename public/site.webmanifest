@@ -1,0 +1,20 @@
+{
+  "name": "720 Strategies",
+  "short_name": "720",
+  "description": "A strategic communications and public relations firm connecting people, policy, and technology for impact.",
+  "icons": [
+    {
+      "src": "/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#b21e3b",
+  "background_color": "#ffffff",
+  "display": "standalone"
+}
